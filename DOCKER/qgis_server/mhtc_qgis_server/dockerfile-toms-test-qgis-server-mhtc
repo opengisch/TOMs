@@ -43,6 +43,6 @@ WORKDIR /home/qgis
 
 ENTRYPOINT ["/tini", "--"]
 
-CMD ["/home/qgis/cmd.sh"]
+#CMD ["/home/qgis/cmd.sh"]
 
 #RUN mkdir /io  # not needed to openquake image - but needed for any others
